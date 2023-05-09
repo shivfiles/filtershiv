@@ -45,7 +45,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
             ],[
-            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/tamil4ksupport"),
+            InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/BSHEGDE"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
