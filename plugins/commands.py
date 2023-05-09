@@ -27,7 +27,7 @@ async def start(client, message):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
             InlineKeyboardButton('📢 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📢', url=f'https://t.me/BSHEGDE')
             ],[
-            InlineKeyboardButton('😇 movie search group 😇', url='https://t.me/+BTloleyZM1IxMzhl')
+            InlineKeyboardButton('😇 MOVIE REQUEST GROUP😇', url='https://t.me/+yr98wohDKR9hMTBl')
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -44,6 +44,8 @@ async def start(client, message):
             InlineKeyboardButton("➕️ ADD ME TO YOUR GROUP ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
+            ],[
+            InlineKeyboardButton('😇 MOVIE REQUEST GROUP😇', url='https://t.me/+yr98wohDKR9hMTBl')
             ],[
             InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/BSHEGDE"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
@@ -93,6 +95,8 @@ async def start(client, message):
             InlineKeyboardButton("➕️ ADD ME TO YOUR GROUP ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
+            ],[
+            InlineKeyboardButton('😇 MOVIE REQUEST GROUP😇', url='https://t.me/+yr98wohDKR9hMTBl')
             ],[
             InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/BSHEGDE"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
