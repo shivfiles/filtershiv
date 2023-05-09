@@ -524,6 +524,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search")
             ],[
+            InlineKeyboardButton('😇 MOVIE REQUEST GROUP😇', url='https://t.me/+yr98wohDKR9hMTBl')
+            ],[
             InlineKeyboardButton("📢 SUPPORT 📢", url="https://t.me/BSHEGDE"),
             InlineKeyboardButton("💫 ABOUT 💫", callback_data="about")
         ]]
@@ -576,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", callback_data="search"),
             InlineKeyboardButton('📢 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📢', url=f'https://t.me/BSHEGDE')
             ],[
-            InlineKeyboardButton('😇 movie search group 😇', url='https://t.me/+BTloleyZM1IxMzhl')
+            InlineKeyboardButton('😇 MOVIE REQUEST GROUP😇', url='https://t.me/+yr98wohDKR9hMTBl')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.edit_message_media(
